@@ -1,10 +1,12 @@
-#include <iostream>
+#include <cstdio>
 #include "sum.h"
-using namespace std;
 
-int main() {
+
+int main(){
+
 	int n;
-	cin >> n;
+	
+	scanf("%d", &n);
 	int s = sum(n);
-	cout << "sum = " << s;
+	printf("sum = %d\n",s);	
 }
